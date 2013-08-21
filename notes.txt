@@ -1,0 +1,45 @@
+** PLAYER CONTROLS **
+
+MOVEMENT
+    A  = left
+    W  = jump
+    D  = right
+    S  = crouch
+
+BASIC ATTACKS
+    LEFT    = light punch
+    UP      = hard punch
+    DOWN    = light kick
+    RIGHT   = hard kick
+    DIVIDE  = throw
+
+ATTACK COMBOS
+    Two Punch ( jab, uppercut )                     = LEFT, UP      
+    Three Punch ( jab, cross, uppercut )            = LEFT, LEFT, UP
+    Four Punch ( cross, jab, cross, uppercut )      = UP, LEFT, LEFT, UP
+    Three Kick ( sidekick, heelkick, roundkick )    = DOWN, DOWN, RIGHT
+
+SPECIALS ( facing right )
+    Haduken, SuperHaduken       = S,S+D,D,D+UP
+    Shoryuken, SuperShoryuken   = A,A+S,S,S+D,D,D+UP_ARROW
+    Tatsumakisenpuukyaku        = S,S+A,A,A+RIGHT_ARROW
+
+
+
+
+INCOMPLETE STATES:
+    stunned
+
+
+UNUSED FRAMES
+    23,39,53,54,60,61,62,63,64,65,79,81
+
+
+
+
+
+
+
+
+
+

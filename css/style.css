@@ -1,0 +1,36 @@
+html,body {
+	background-color : #333;
+	color : #fff;
+	font-family : helvetica, arial, sans-serif;
+	margin : 0;
+	padding : 0;
+	font-size : 12pt;
+}
+#canvas {
+	margin : 0 auto;
+	display : block;
+	padding-top : 40px;
+}
+.button{
+	display : block;
+	width : 160px;	
+	text-align : center;
+	text-decoration : none;
+	text-shadow : 0 1px 1px rgba( 0,0,0, 0.5 );
+	padding : 10px;
+	background : #aa0000;
+	color : white;
+	font-weight : bold;
+	margin : 50px auto;
+
+	-moz-box-shadow : 0 1px 1px rgba( 0,0,0, 0.5 );
+	-webkit-box-shadow : 0 1px 1px rgba( 0,0,0, 0.5 );
+	box-shadow : 0 1px 1px rgba( 0,0,0, 0.5 );
+	
+	-moz-border-radius : 2px;
+	-webkit-border-radius : 2px;
+	border-radius : 2px;
+}
+.button:hover, .button:active{
+	background : #ff0000;
+}
